@@ -9,4 +9,9 @@ class Test
 	{
 		System.out.println("Hello World! user1");
 	}
+	
+	public String getStr()
+	{
+		System.out.println("New function from user3");
+	}
 }
