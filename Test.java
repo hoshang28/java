@@ -4,9 +4,17 @@ class Test
 	string str3 = "user3";
 	string str = "user2";
 
-	
+
+	public void getName(){
+		Systemout.println("User2 name is ");
+ 	}	
 	public static void Main(string args[])
 	{
 		System.out.println("Hello World! user1");
+	}
+	
+	public String getStr()
+	{
+		System.out.println("New function from user3");
 	}
 }
